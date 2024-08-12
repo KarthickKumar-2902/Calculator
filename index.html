@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
 <body>
     <section id="calc">
         <div class="calc_container">
+            <div class="calc_title"><span>Calculator</span></div>
             <!-- <div class="calc_inputs">
                 <div class="calc_in1">
                     <input id="first">
@@ -20,9 +21,13 @@
             </div>
             <div class="calc_out">
                 <p class="output"></p>
-            </div> -->
+            </div> -->  
             <div class="calc_io"><input type="text" id="diplayitems"></div>
             <div class="calc_numbers">
+                <!-- <div class="numbers"></div> -->
+
+
+                
                 <button onclick="display('7')">7</button>
                 <button onclick="display('8')">8</button>
                 <button onclick="display('9')">9</button>
@@ -36,11 +41,11 @@
                 <button onclick="display('1')">1</button>
                 <button onclick="display('2')">2</button>
                 <button onclick="display('3')">3</button>
+                <button onclick="display('+')" class="plus">+</button>
                 <button onclick="display('0')">0</button>
-                <button onclick="display('+')" class="marryt">+</button>
                 <button onclick="allclear()">Ac</button>
                 <button onclick="clr()">Cl</button>
-                <button onclick="calc()" style="padding-left: 15%;padding-right: 15%;margin-bottom: 10%;">=</button>
+                <button onclick="calc()" class="equals">=</button>
                 
             </div>
         </div>
